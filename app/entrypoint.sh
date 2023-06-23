@@ -1,6 +1,12 @@
 #!/bin/sh
-echo "installing app"
+echo "Installing app"
 npm i
 
-echo "running app on localhost:3000"
+echo "Cleaning up dist folder"
+npm run clean
+
+echo "Compiling"
+npm run build
+
+echo "Running app on http://localhost:3000"
 npm run start
