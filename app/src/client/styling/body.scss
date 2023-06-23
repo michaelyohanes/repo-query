@@ -1,0 +1,10 @@
+$paper: #E5E5E5;
+
+body {
+    padding: 0.5rem;
+    background-color: $paper !important;
+}
+
+.MuiAccordionSummary-root.Mui-expanded {
+    margin-bottom: 0.5rem;
+}
